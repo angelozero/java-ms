@@ -11,3 +11,4 @@
 - docker
 - docker compose
 - heroku
+![arch](https://i.postimg.cc/fTwRWWCf/Screenshot-2023-06-08-at-22-18-39.png)
