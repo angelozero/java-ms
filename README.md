@@ -29,7 +29,7 @@ docker run --name product-db -p 5433:5432 -e POSTGRES_DB=product-db -e POSTGRES_
 docker run --name sales-db -p 27017:27017 -e MONGO_INITDB_ROOT_USERNAME=admin -e MONGO_INITDB_ROOT_PASSWORD=terra mongo:4.4.6
 ```
 
-#### - RabbitMQ - connection via Browser with link http://localhost:15672/ (User: guest / Password: guest)
+#### - RabbitMQ - connection via Browser with link [localhost:15672](http://localhost:15672/) (User: guest / Password: guest)
 ```shell
 docker run --name sales-rabbit -p 5672:5672 -p 25676:25676 -p 15672:15672 rabbitmq:3.12-management
 ```
